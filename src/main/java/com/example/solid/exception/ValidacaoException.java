@@ -1,4 +1,4 @@
-package br.com.alura.rh;
+package com.example.solid.exception;
 
 public class ValidacaoException extends RuntimeException {
 
