@@ -1,14 +1,14 @@
 package com.example.solid.model;
 
-import com.example.solid.exception.ValidacaoException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.time.LocalDate;
 
 @Data
+@ToString
 @AllArgsConstructor
 public class Funcionario {
 
